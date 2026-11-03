@@ -37,7 +37,7 @@ Google Colab with NVCC Compiler
 
 ## PROGRAM:
 ````For Float````
-````
+````c
 %%cuda
 #include <stdio.h>
 #include <cuda_runtime.h>
@@ -320,7 +320,7 @@ CHECK(cudaDeviceSynchronize());
 
 ````For Int````
 
-````
+````c
 %%cuda
 #include <stdio.h>
 #include <cuda_runtime.h>
@@ -603,10 +603,20 @@ CHECK(cudaDeviceSynchronize());
 ## OUTPUT:
 
 ````For Float````
+
+
+
+
+
 <img width="893" height="188" alt="image" src="https://github.com/user-attachments/assets/f2fd851f-329f-4bb2-93b3-48a6ce8c4da4" />
 
 
 ````For Int````
+
+
+
+
+
 <img width="852" height="207" alt="image" src="https://github.com/user-attachments/assets/6f955337-43c1-4761-a5be-44935eca1ae7" />
 
 
